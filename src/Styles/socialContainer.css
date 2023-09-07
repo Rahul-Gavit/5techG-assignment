@@ -1,0 +1,35 @@
+
+.sc-card-container div{
+    margin: 30px;
+}
+.sc-i{
+    font-size: 5rem;
+    cursor: pointer;
+}
+.sc-i:hover{
+    font-size: 4.9rem;
+}
+.sc-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.sc-card-container{
+    position: absolute;
+    display: flex;
+    margin-top: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px 3px;
+}
+
+.sc-h1{
+    font-size: 4rem;
+    color: #fff;
+}
+.sc-p{
+    font-size: 1.2rem;
+    color: #fff;
+}

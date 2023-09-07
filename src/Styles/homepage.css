@@ -1,0 +1,63 @@
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color: #FD4401;
+    /* border: 2px solid; */
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-color: #f0f0f0;
+}
+
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 68, 0, 0.5), rgba(253, 68, 1, 0.3)), url(../assets/images/social_img.jpg);
+    background-size: cover;
+    opacity: 70%;
+    height: 500px;
+}
+
+.creative-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.brand-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 900px;
+}
+
+.brand-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.help-container{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color: #FD4401;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}

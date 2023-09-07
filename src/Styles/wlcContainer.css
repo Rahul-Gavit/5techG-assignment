@@ -1,0 +1,91 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 80px;
+    width: 100%;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to the text */
+.wlc-info-container {
+    margin:100px 0 0 40px;
+    padding: 20px;
+    width: 30rem;
+    animation: slide-in 1.5s ease-in-out;
+}
+
+.wlc-info-container{
+    margin:100px 0 0 40px;
+    padding: 20px;
+    width: 30rem;
+}
+
+.wlc-h1{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.wlc-h2{
+    color: #fff;
+}
+
+.wlc-p{
+    color: #fff;
+}
+.wlc-btn{
+    color: #000;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-style: none;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.wlc-btn:hover{
+    background-color: #fde801;
+    transform: scale(1.05);
+}
+.nav-a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s; 
+    margin: 0 10px;
+}
+
+.nav-a:hover{
+    color: #ffff8b;
+}
+
+.nav-h1{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.nav-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-style: none;
+    border: 2px solid;
+    border-color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 0 10rem 0 2rem;
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+
+    background-color: #000;
+    transform: scale(1.05);
+}
